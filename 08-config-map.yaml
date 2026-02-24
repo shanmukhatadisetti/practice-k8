@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-maxReplicas
+  labels:
+    purpose: config-map-demo
+    env: dev 
+    project: roboshop
+data:
+  course: "devops"
+  project: "roboshop"
