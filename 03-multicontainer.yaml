@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod 
+metadata:
+  name: multi-containers
+  labels:
+    purpose: multi-container demo
+    env: dev
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  - name: test
+    image: almalinux
