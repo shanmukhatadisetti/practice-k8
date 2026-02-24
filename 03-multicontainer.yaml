@@ -11,4 +11,5 @@ spec:
     image: nginx
   - name: test
     image: almalinux
-    command: ["sleep","200"]
+    command: ["sleep", "200"]
+
