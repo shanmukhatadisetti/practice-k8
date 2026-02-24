@@ -6,6 +6,6 @@ metadata:
     name: labels
     purpose: labels-demo
 spec:
-  conatiners:
+  containers:
   - name: nginx
     image: nginx
