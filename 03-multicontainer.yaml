@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: multi-containers
   labels:
-    purpose: multi-container demo
+    purpose: multi-container-demo
     env: dev
 spec:
   containers:
